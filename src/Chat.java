@@ -19,6 +19,6 @@ public class Chat extends Animal {
 
     @Override
     public String toString() {
-        return String.format("C'est un %s il a une %S moustache, son pelage est de couleur %s et il a %s pattes", species, mustach, color, 4)  + " C'est un chat";
+        return String.format("C'est un %s il a une %S moustache, son pelage est de couleur %s et il a %s pattes, le son du %s est %s", getSpecies(), mustach, getColor(), 4, getSpecies(), getCryAnimal())  + " C'est un chat";
     }
 }

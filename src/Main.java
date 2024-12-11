@@ -4,5 +4,6 @@ public class Main {
         System.out.println(Persan);
         Chien Pitbull = new Chien("Rex", "Pitbull", "Brown");
         System.out.println(Pitbull);
+        System.out.println(Persan.getCryAnimal());
     }
 }
